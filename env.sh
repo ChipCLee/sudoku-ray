@@ -1,0 +1,1 @@
+conda env create -f environment.yml -p /home/user/anaconda3/envs/env_name
