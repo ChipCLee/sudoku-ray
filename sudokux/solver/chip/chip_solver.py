@@ -1,4 +1,4 @@
-from .utils import *
+from sudokux.solver.utils import *
 class Block:
     def __init__(self, r, c, np_cells) -> None:
         self.block=getBlock(r,c,np_cells)

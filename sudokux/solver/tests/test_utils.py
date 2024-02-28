@@ -1,4 +1,4 @@
-from ..utils import *
+from sudokux.solver.utils import *
 import unittest
 
 logger.setLevel(logging.INFO)

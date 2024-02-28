@@ -1,4 +1,4 @@
-from ..chip_solver import *
+from sudokux.solver.chip.chip_solver import *
 import unittest
 
 logger.setLevel(logging.INFO)
