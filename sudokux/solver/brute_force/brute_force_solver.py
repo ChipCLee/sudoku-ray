@@ -1,6 +1,9 @@
 class BruteForceSolver:
     M=9
     def __init__(self, grid) -> None:
+        self.init(grid)
+
+    def init(self, grid):
         self.grid = grid
 
     def print_puzzle(self):
